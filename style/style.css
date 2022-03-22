@@ -64,7 +64,7 @@ div.tr {
 
 div.td {
     overflow: auto;
-    display: grid;
+    display: inline-grid;
     grid-template-rows: 1fr;
 }
 
