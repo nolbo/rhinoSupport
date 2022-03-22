@@ -63,7 +63,6 @@ div.tr {
 }
 
 div.td {
-    width: calc(100% - 401px);
     overflow: auto;
     display: grid;
     grid-template-rows: 1fr;
