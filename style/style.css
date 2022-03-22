@@ -58,20 +58,21 @@ div.table {
 }
 
 div.tr {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 4fr 6fr;
 }
 
 div.td {
     width: calc(100% - 401px);
     overflow: auto;
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 td.spt {
     text-align: center;
     font-size: 12px;
     font-weight: 700;
-    width: 48px !important;
     background-color: #ebebeb;
     border-radius: 4px;
     height: 24px;
