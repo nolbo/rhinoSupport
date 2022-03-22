@@ -63,9 +63,9 @@ div.tr {
 }
 
 div.td {
+    width: calc(100% - 401px);
     overflow: auto;
     word-break: break-all;
-    width:unset;
 }
 
 td.spt {
