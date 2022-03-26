@@ -38,7 +38,7 @@ table.th {
 
 table.th th {
     font-size: 12px;
-    width: 48px;
+    width: calc(100% / 8);
     height: 36px;
     border-radius: 4px;
     background-color: #ebebeb;
@@ -93,6 +93,7 @@ table.td {
 }
 
 td.spt {
+    width: calc(100% / 8);
     text-align: center;
     font-size: 12px;
     font-weight: 700;
