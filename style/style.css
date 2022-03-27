@@ -147,7 +147,7 @@ td.spt::before {
 td.spt.f:hover::before {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     content: 'JS버전 ES6가 요구됩니다.';
     width: 150%;
     padding: 8px 8px;
@@ -160,7 +160,7 @@ td.spt.f:hover::before {
 td.spt.e:hover::before {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     content: attr(data-err);
     width: 250%;
     padding: 8px 8px;
