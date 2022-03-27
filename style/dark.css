@@ -1,0 +1,39 @@
+
+header {
+    background-color: #252525;
+    border-bottom: 2px solid #000;
+    color: white;
+}
+
+table.th th {
+    background-color: #000;
+}
+
+section {
+    background-color: #252525;
+}
+
+div.type, div.details {
+    color: white;
+}
+
+div.type {
+    background-color: #000;
+}
+
+div.details {
+    border-bottom: 2px solid #ebebeb;
+}
+
+div.tr:hover {
+    background-color: #000;
+    border: 2px solid rgb(255, 0, 242);
+}
+
+div.td {
+    color: white;
+}
+
+td.spt {
+    background-color: #000;
+}

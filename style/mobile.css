@@ -1,0 +1,99 @@
+
+* {
+    --con-padding: 5vw;
+    --con-width: 90vw;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Open Sans', 'Pretendard';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 72px;
+
+    position: sticky;
+    top: 0;
+}
+
+div.title {
+    width: initial;
+    font-size: .75rem;
+}
+
+table.th {
+    width: 100%;
+}
+
+table.th th {
+    font-size: 8px;
+    width: calc(100% / 8);
+}
+
+section {
+    padding: 16px var(--con-padding);
+}
+
+h4 {
+    font-size: 12px;
+}
+
+div.table {
+    font-size: 12px;
+}
+
+div.tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+}
+div.td {
+    width: initial;
+    padding: 0px 4px;
+}
+
+table.td {
+    width: 100%;
+}
+
+td.spt {
+    height: 24px;
+}
+
+td.spt.y, td.spt.y::after {
+    content: "Y";
+}
+
+td.spt.e, td.spt.e::after {
+    content: "E";
+}
+
+td.spt.f, td.spt.f::after {
+    content: "F";
+}
+
+td.spt.n, td.spt.n::after {
+    content: "N";
+}
+
+td.spt.f:hover::before {
+    padding: 4px 4px;
+    font-size: 10px;
+}
+
+td.spt.e:hover::before {
+    width: 250%;
+    padding: 4px 4px;
+    font-size: 10px;
+}
