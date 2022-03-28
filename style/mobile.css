@@ -68,7 +68,6 @@ table.td {
 }
 
 td.spt {
-    position: static;
     height: 24px;
 }
 
@@ -101,9 +100,9 @@ td.spt.n, td.spt.n::after {
 }
 
 td.spt.f:hover::before {
-    top: 50%;
-    left: calc(50% - 75vw / 2);
-    width: 75vw;
+    top: 100%;
+    left: 0;
+    width: 50vw;
     box-sizing: border-box;
     justify-content: flex-start;
     padding: 8px;
@@ -112,12 +111,22 @@ td.spt.f:hover::before {
 }
 
 td.spt.e:hover::before {
-    top: 50%;
-    left: calc(50% - 75vw / 2);
-    width: 75vw;
+    top: 100%;
+    left: 0;
+    width: 50vw;
     box-sizing: border-box;
     justify-content: flex-start;
     padding: 8px;
     font-size: 10px;
     text-align: left;
+}
+
+td.spt.f:nth-child(n+4):hover::before {
+    left: initial;
+    right: 0;
+}
+
+td.spt.e:nth-child(n+4):hover::before {
+    left: initial;
+    right: 0;
 }
