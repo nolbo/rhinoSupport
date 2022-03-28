@@ -77,6 +77,13 @@ td.spt:hover::after {
     color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+    td.spt:hover::after {
+        background: #000;
+        color: white;
+    }
+}
+
 td.spt.y, td.spt.y::after {
     content: "Y";
 }
