@@ -72,6 +72,11 @@ td.spt {
     height: 24px;
 }
 
+td.spt:hover::after {
+    background: #ebebeb;
+    color: black;
+}
+
 td.spt.y, td.spt.y::after {
     content: "Y";
 }
