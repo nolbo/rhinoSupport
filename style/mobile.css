@@ -92,7 +92,9 @@ td.spt.f:hover::before {
     top: 50%;
     left: 0;
     width: 100%;
-    padding: 4px 4px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding: 8px;
     font-size: 10px;
 }
 
@@ -100,6 +102,8 @@ td.spt.e:hover::before {
     top: 50%;
     left: 0;
     width: 100%;
-    padding: 4px 4px;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding: 8px;
     font-size: 10px;
 }
