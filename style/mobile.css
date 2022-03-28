@@ -73,13 +73,13 @@ td.spt {
 }
 
 td.spt:hover, td.spt:hover::after {
-    background: #ebebeb;
+    background: white;
     color: black;
 }
 
 @media (prefers-color-scheme: dark) {
     td.spt:hover, td.spt:hover::after {
-        background: #000;
+        background: #252525;
         color: white;
     }
 }
