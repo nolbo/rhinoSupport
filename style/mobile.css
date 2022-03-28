@@ -68,6 +68,7 @@ table.td {
 }
 
 td.spt {
+    position: static;
     height: 24px;
 }
 
@@ -88,12 +89,17 @@ td.spt.n, td.spt.n::after {
 }
 
 td.spt.f:hover::before {
+    top: 50%;
+    left: 0;
+    width: 100%;
     padding: 4px 4px;
     font-size: 10px;
 }
 
 td.spt.e:hover::before {
-    width: 250%;
+    top: 50%;
+    left: 0;
+    width: 100%;
     padding: 4px 4px;
     font-size: 10px;
 }
