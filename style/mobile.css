@@ -72,13 +72,13 @@ td.spt {
     height: 24px;
 }
 
-td.spt:hover::after {
+td.spt:hover, td.spt:hover::after {
     background: #ebebeb;
     color: black;
 }
 
 @media (prefers-color-scheme: dark) {
-    td.spt:hover::after {
+    td.spt:hover, td.spt:hover::after {
         background: #000;
         color: white;
     }
