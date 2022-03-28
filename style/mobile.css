@@ -90,8 +90,8 @@ td.spt.n, td.spt.n::after {
 
 td.spt.f:hover::before {
     top: 50%;
-    left: 0;
-    width: 100%;
+    left: calc(50% - 75vw / 2);
+    width: 75vw;
     box-sizing: border-box;
     justify-content: flex-start;
     padding: 8px;
@@ -100,8 +100,8 @@ td.spt.f:hover::before {
 
 td.spt.e:hover::before {
     top: 50%;
-    left: 0;
-    width: 100%;
+    left: calc(50% - 75vw / 2);
+    width: 75vw;
     box-sizing: border-box;
     justify-content: flex-start;
     padding: 8px;
