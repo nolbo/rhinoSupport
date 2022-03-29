@@ -121,12 +121,12 @@ td.spt.e:hover::before {
     text-align: left;
 }
 
-td.spt.f:nth-child(n+6):hover::before {
+td.spt.f:nth-child(n+5):hover::before {
     left: initial;
     right: 0;
 }
 
-td.spt.e:nth-child(n+6):hover::before {
+td.spt.e:nth-child(n+5):hover::before {
     left: initial;
     right: 0;
 }
