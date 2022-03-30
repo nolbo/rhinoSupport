@@ -79,11 +79,10 @@ div.tr {
     box-sizing: border-box;
 
     transition-duration: .3s;
-    transition-property: border, background-color;
+    transition-property: border;
 }
 
 div.tr:hover {
-    background-color: #ebebeb;
     border: 2px solid rgb(0, 17, 255);
 }
 
